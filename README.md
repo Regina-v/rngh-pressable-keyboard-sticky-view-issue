@@ -1,3 +1,18 @@
+Minimal reprodcuer for an issue where Pressables from react-native-gesture-handler become unresponsive.
+
+Steps to reproduce on a real android device (not emulator!):
+- press the button to trigger a snackbar which partially overlays a button
+- while the snackbar is shown press the button again
+- when the snackbar is gone, observe that the ripple effect on the button is still there
+- try to use the other button
+
+
+
+https://github.com/user-attachments/assets/3b58a89b-bdd0-496d-a391-6deedc269211
+
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
